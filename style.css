@@ -1,0 +1,47 @@
+/* Cabeçalho */
+header {
+    background-color: #003399; /* Cor do cabeçalho similar ao G1 */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-direction: column; /* Adiciona a direção de coluna */
+    text-align: center; /* Alinha o texto no centro */
+}
+
+header .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+/* Ajustando o menu de navegação */
+header nav {
+    margin-top: 20px; /* Adiciona espaço entre a logo e o menu */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centraliza o menu */
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
